@@ -24,20 +24,20 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Example Hacks | 5/6 August 2016"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
+  title:       "ROBOHacks | October 8/9 2022"
+  description: "Building innovative solutions that will empower future students and bridge gaps in education."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
-  name:        "Example Hacks"
-  description: "This is a sample hackathon website that you can use by following instructions on GitHub."
-  date:        "5 & 6 August 2016"
-  location:    "Holmdel, NJ, United States"
+  name:        "ROBOHacks"
+  description: "Building innovative solutions that will empower future students and bridge gaps in education."
+  date:        "October 8-9 2022"
+  location:    "Robinson CS's EdTech Hackathon"
 
   trust_badge:
-    year:   "2017"  # season year
-    region: "eu"    # "na" or "eu"
+    year:   "2022"  # season year
+    region: "na"    # "na" or "eu"
     color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
@@ -47,13 +47,13 @@ event:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+        href: "mailto:robocompsci@gmail.com"
 
   about:
     description: >
-      Example Hacks is a hackathon hosted at The University of Example.
-      This is your opportunity to describe your event, what to expect, where it is & anything unique to your event.
-      Keep it straightforward, don't make it too long.
+      ROBOHacks is a 24 hour online hackathon hosted by James W. Robinson Secondary School in Fairfax, Virginia.
+      Strap in for an exciting event with guest speakers, workshops, minigames, and prizes! 
+      GOAL: Design or code innovative tech solution for learners all around the world.
 
   # Info Sections
   info:
@@ -93,7 +93,7 @@ event:
         We work with over 200 Member Events and empower over 70,000 students every year.
     - question: "Is there a code of conduct?"
       answer: >
-        Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+        Yes there is, and it's strictly enforced. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
 
   # This is the message you'll receive once you've registered.
   register:
