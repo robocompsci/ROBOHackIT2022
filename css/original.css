@@ -70,9 +70,8 @@ section {
 .hero .wrapper h3 {
   font-size: 20px;
   font-weight: 200;
-  padding-bottom: 35px;
   color: #fff;
-  max-width: 50%;
+  max-width: 40%;
   margin: auto;
 }
 
@@ -95,11 +94,9 @@ section {
 
 .hero .buttons a:hover {
   z-index: 10;
-  font-weight: 600;
   color: #fdc500;
-  transform: rotate(45deg);
   border: 2px solid #fdc500;
-  transition: all 300ms ease;
+  transition: all 200ms ease-in;
 }
 
 .hero .buttons a:not(:last-child) {
@@ -170,6 +167,9 @@ section {
   font-size: 20px;
 }
 
+.preregister {
+  margin-top: 30px;
+}
 /*
  * FAQ Section
  */
@@ -185,7 +185,7 @@ section {
 .faq h1 {
   font-family: 'Montserrat';
   font-weight: 700;
-  font-size: 40px;
+  font-size: 200px;
   margin: 30px 0;
 }
 

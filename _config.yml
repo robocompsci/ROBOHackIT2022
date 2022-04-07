@@ -41,7 +41,9 @@ event:
 
   hero:
     links:
-      - text: "Apply Now"
+      - text: "Pre-Register"
+        href: "https://forms.gle/LCPek6GaLpmaNiaT8"
+      - text: "Apply w/ MyMLH"
         my_mlh:
           client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
           redirect_uri: "https://robocompsci.github.io/mlh-hackathon-boilerplate/success.html"
@@ -74,8 +76,8 @@ event:
   faq:
     - question: "What is a hackathon?"
       answer: >
-        A hackathon is an invention marathon. Students come together to build cool
-        software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
+        A hackathon is an invention marathon. Students come together to build and design cool
+        software over 24-48 hours. It's [super beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
     - question: "How much does it cost?"
       answer: >
         Nothing. ROBOHacks is free for everyone.
@@ -85,7 +87,7 @@ event:
         have graduated within the past 12 months are eligible to attend.
     - question: "Where is the hackathon?"
       answer: >
-        The hackathon will be entirely digital this year.
+        ROBOHacks will be entirely digital this year, facilitated by Discord and Devpost.
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.

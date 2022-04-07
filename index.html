@@ -6,9 +6,17 @@ layout: default
 
 <section class="about">
   <a href="#about"></a>
-  <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      {{ site.event.about.description | markdownify }}
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="..." class="card-img" alt="...">
+      </div>
+      <div class="col-md-8 col-xs-12 col-sm-10 col-sm-offset-1">
+        <div class="card-body">
+          <h5 class="card-title">Innovation in EdTech</h5>
+          <p class="card-text">{{ site.event.about.description | markdownify }}</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -26,9 +34,6 @@ layout: default
         </div>
       {% endfor %}
     </div>
-  </div>
-  <div class="pre-register">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfICGjxXPe0xKC1G3GjsB7sM6TBX_ZnSgRHiW1BsQ86553KbQ/viewform?embedded=true" width="640" height="2031" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 </section>
 
