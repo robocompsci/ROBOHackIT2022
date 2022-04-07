@@ -90,7 +90,7 @@ h3 {
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
-  font-weight: 550;
+  font-weight: 600;
   padding: 10px 50px;
   text-decoration: none;
   text-transform: uppercase;
@@ -101,14 +101,16 @@ h3 {
   background-color: transparent;
   border-color: #fdc500;
   color: #fdc500;
-  transition: all .2s ease-out;
+  transition: all .2s ease;
 }
 
 .hero .buttons a:not(:last-child) {
   margin-right: 10px;
+}
+
+.hero .buttons:last-child {
   background-color: transparent;
   border-color: #fdc500;
-  color: #fdc500;
 }
 
 /* 
@@ -121,10 +123,17 @@ h3 {
   position: relative;
 }
 
+.about h1 {
+  border-width: 15px 0;
+  padding: 130px 0;
+  position: relative;
+}
+
 .about p {
+  text-align: left;
   color: #fff;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 18px;
   line-height: 1.6em;
   letter-spacing: -.3px;
 }
@@ -174,6 +183,7 @@ h3 {
 
 .faq {
   background-color: #00f0;
+  color: #fff;
   margin-top: 15px;
   padding: 100px 0;
   position: relative;
@@ -192,6 +202,7 @@ h3 {
 }
 
 .faq .question p {
+  color: #fff;
   font-size: 18px;
   line-height: 1.5em;
 }
@@ -207,13 +218,12 @@ h3 {
  */
 
 .footer {
-  background-color: #00509d;
+  background-color: #00296B;
   color: #fff;
   padding: 30px 0;
 }
 
 .footer img {
-  max-width: 250px;
   margin-bottom: 15px;
 }
 

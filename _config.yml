@@ -97,7 +97,8 @@ event:
   # This is the message you'll receive once you've registered.
   register:
     message: >
-      Thanks for registering! You'll receive more information closer to the hackathon.
+      Thanks for registering!
+    subtitle: "You'll receive more information closer to the hackathon."
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
