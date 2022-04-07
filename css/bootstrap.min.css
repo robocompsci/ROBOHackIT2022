@@ -4506,8 +4506,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 30px 9px;
+    font
   }
 }
 .navbar-form {
