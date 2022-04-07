@@ -57,7 +57,7 @@ section {
   color: #fff;
 }
 
-.hero .wrapper h1 {
+h1 {
   display: inline-block;
   font-size: 60px;
   font-weight: 800;
@@ -65,14 +65,14 @@ section {
   padding: 10px 30px;
 }
 
-.hero .wrapper h2 {
+h2 {
   margin-top: 0px;
   font-size: 28px;
   font-weight: 200;
   color: #fff;
 }
 
-.hero .wrapper h3 {
+h3 {
   font-size: 20px;
   font-weight: 200;
   padding-bottom: 35px;
@@ -82,6 +82,12 @@ section {
 .hero .buttons {
   margin: 40px 0;
 }
+
+.hero .buttons:hover,
+.hero .buttons:focus {
+  border-color: #fdc500;
+}
+
 
 .hero .buttons a {
   border-radius: 40px;
@@ -113,14 +119,13 @@ section {
 
 .about {
   border-width: 15px 0;
-  background-color: #fff;
   padding: 130px 0;
   position: relative;
 }
 
 .about p {
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 22px;
   line-height: 1.6em;
   letter-spacing: -.3px;
@@ -129,6 +134,10 @@ section {
 .about p span {
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.about a {
+  color: #fdc500;
 }
 
 /*
@@ -184,12 +193,6 @@ section {
   font-size: 24px;
 }
 
-.faq .question hr {
-  border-top: 8px solid #000;
-  margin: 20px 0;
-  width: 80px;
-}
-
 .faq .question p {
   font-size: 18px;
   line-height: 1.5em;
@@ -206,7 +209,7 @@ section {
  */
 
 .footer {
-  background-color: #000;
+  background-color: #00509d;
   color: #fff;
   padding: 30px 0;
 }

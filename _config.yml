@@ -20,7 +20,7 @@ tracking:
 
 # Let people connect & engage with you through social media.
 social:
-  twitter_handle: "MLHacks"
+  twitter_handle: "ROBO_CS"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
@@ -97,7 +97,7 @@ event:
   # This is the message you'll receive once you've registered.
   register:
     message: >
-      You'll receive more information closer to the hackathon.
+      Thanks for registering! You'll receive more information closer to the hackathon.
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
