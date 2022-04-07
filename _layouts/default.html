@@ -4,17 +4,17 @@
 
   <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
     {% include trust_badge.html %}
-    <nav class="navbar navbar-light navbar-expand-sm navbar-default" style="background-color: #00509D;" ">
+    <nav class="navbar navbar-expand-sm" style="background-color: #00509D; height: 10vh;" ">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
-            <img src="../mlh-hackathon-boilerplate/images/robohackslogo.png" height="50" alt="ROBOHacks 2022"></a>
+            <img src="../mlh-hackathon-boilerplate/images/robohackslogo.png" height="60" alt="ROBOHacks 2022"></a>
         </div>
         <ul class="nav navbar-nav">
           <li><a href="#">About</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Sponsors</a></li>
-          <li><a href="#">Sponsors</a></li>
+          <li><a class="faq">FAQ</a></li>
+          <li><a class="sponsors">Sponsors</a></li>
+          <li><a class="team">Robinson CS Club</a></li>
         </ul>
       </div>
     </nav>

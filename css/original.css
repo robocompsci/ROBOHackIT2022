@@ -61,10 +61,10 @@ section {
 }
 
 .hero .wrapper h2 {
-  margin-top: 0px;
+  margin-top: -15px;
   font-size: 28px;
-  font-weight: 200;
-  color: #fff;
+  font-weight: 400;
+  color: #fdc500;
 }
 
 .hero .wrapper h3 {
@@ -78,14 +78,11 @@ section {
 
 .hero .buttons {
   margin: 40px 0;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .hero .buttons a {
-  border-radius: 40px;
-  border-color: hsl(47, 100%, 50%);
-  background-color: transparent;
-  color: #00296B;
+  border: 2px solid #fff;
+  color: #fff;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
@@ -93,6 +90,30 @@ section {
   padding: 10px 50px;
   text-decoration: none;
   text-transform: uppercase;
+  transition: all 300ms ease;
+}
+
+.hero .buttons a:after {
+  width: 300%;
+  height: 300%;
+  left: -300%;
+  transform: rotate(45deg);
+  background-color: #fdc500;
+  transition: all 300ms ease;
+}
+
+.hero .buttons a:hover {
+  color: #fff;
+  z-index: 10;
+  font-weight: 600;
+}
+
+.hero .buttons a:hover::after {
+  left: -100%;
+}
+
+.btn5:hover {
+  border: 2px solid #fdc500;
 }
 
 .hero .buttons a:not(:last-child) {
@@ -204,10 +225,12 @@ section {
 .navbar {
   background-color: #012053;
   color: #fff;
+  min-height: 10vh;
 }
 
-.navbar li {
-  color: fff;
+.nav li {
+  color: #fff;
+  font-size: 20px;
 }
 
 /*
