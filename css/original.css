@@ -244,7 +244,8 @@ h3 {
 .navbar {
   background-color: #012053;
   color: #fff;
-  max-height: 10vh;
+}
+  /* max-height: 10vh;
   padding: 20px 0;
   display: flex;
   z-index: 1;
@@ -262,7 +263,7 @@ h3 {
  background-color: #fdc500;
  border-radius: 5px;
  transition: 0.3s ease;
-}
+} */
 
 
 /*
