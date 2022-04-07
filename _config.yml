@@ -24,7 +24,7 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "ROBOHacks | October 8/9 2022"
+  title:       "ROBOHacks | October 2022"
   description: "Building innovative solutions that will empower future students and bridge gaps in education."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
@@ -32,13 +32,13 @@ seo:
 event:
   name:        "ROBOHacks"
   description: "Building innovative solutions that will empower future students and bridge gaps in education."
-  date:        "October 8-9 2022"
-  location:    "Robinson CS's EdTech Hackathon"
+  date:        "October 2022"
+  location:    "Robinson CS Club's EdTech Hackathon"
 
   trust_badge:
     year:   "2022"  # season year
-    region: "na"    # "na" or "eu"
-    color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
+    region: ""    # "na" or "eu"
+    color:  "yellow" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
     links:
