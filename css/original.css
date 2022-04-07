@@ -40,18 +40,13 @@ section {
   position: fixed;
   right: 50px;
   top: 0;
-  width: 10%;
+  width: 5%;
   z-index: 10000;
 }
 
 /* 
  * Hero Section
  */
-
-.hero {
-  background-color: #000;
-  min-height: 110vh;
-}
 
 .hero img {
   max-width: 400px;
@@ -62,7 +57,7 @@ section {
 }
 
 .hero .wrapper h1 {
-  background: #fff;
+  color: #fff;
   display: inline-block;
   font-size: 60px;
   font-weight: 800;
