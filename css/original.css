@@ -17,12 +17,12 @@
  */
 
 * {
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   font-weight: 600;
 }
 
 body {
-  background-color: #000;
+  background-image: url(../images/background.png)
 }
 
 section {
@@ -57,20 +57,12 @@ section {
   max-width: 400px;
 }
 
-.hero hr {
-  border-top: 15px solid #fff;
-  margin: 0;
-  position: relative;
-  top: -14px;
-}
-
 .hero .wrapper {
   padding-top: 30vh;
 }
 
 .hero .wrapper h1 {
   background: #fff;
-  background: rgba(255, 255, 255, .3);
   display: inline-block;
   font-size: 60px;
   font-weight: 800;
@@ -91,6 +83,7 @@ section {
 
 .hero .buttons {
   margin: 40px 0;
+  color: #fdc500;
 }
 
 .hero .buttons a {
