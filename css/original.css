@@ -94,23 +94,12 @@ section {
 }
 
 .hero .buttons a:hover {
-  color: #fff;
   z-index: 10;
   font-weight: 600;
-  width: 300%;
-  height: 300%;
-  left: -300%;
+  color: #fdc500;
   transform: rotate(45deg);
-  background-color: #fdc500;
-  transition: all 300ms ease;
-}
-
-.hero .buttons a:hover::after {
-  left: -100%;
-}
-
-.hero .buttons a:hover {
   border: 2px solid #fdc500;
+  transition: all 300ms ease;
 }
 
 .hero .buttons a:not(:last-child) {

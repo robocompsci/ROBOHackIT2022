@@ -4129,12 +4129,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 15px 15px;
 }
 .nav > li > a:focus,
 .nav > li > a:hover {
-  text-decoration: none;
-  background-color: #eee;
+  text-decoration: underline;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4506,7 +4505,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding: 30px 9px;
+    padding: 27px 9px;
   }
 }
 .navbar-form {
