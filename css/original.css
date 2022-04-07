@@ -66,6 +66,7 @@ section {
 }
 
 .hero .wrapper h2 {
+  margin-top: 0px;
   font-size: 28px;
   font-weight: 200;
   color: #fff;
@@ -85,11 +86,11 @@ section {
 .hero .buttons a {
   border-radius: 40px;
   background-color: #fdc500;
-  color: #000;
+  color: #00296B;
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 10px 50px;
   text-decoration: none;
   text-transform: uppercase;
@@ -97,9 +98,9 @@ section {
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color: none;
+  background-color: transparent;
   color: #fdc500;
-  transition: all 1s ease;
+  transition: all .5s ease-in;
 }
 
 .hero .buttons a:not(:last-child) {
