@@ -37,7 +37,6 @@ event:
 
   trust_badge:
     year:   "2022"  # season year
-    region: ""    # "na" or "eu"
     color:  "yellow" # "white", "black", "gray", "red", "blue" or "yellow"
 
   hero:
