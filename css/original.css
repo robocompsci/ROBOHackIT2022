@@ -72,6 +72,8 @@ section {
   font-weight: 200;
   padding-bottom: 35px;
   color: #fff;
+  max-width: 50%;
+  margin: auto;
 }
 
 .hero .buttons {
