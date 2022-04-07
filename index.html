@@ -5,6 +5,7 @@ layout: default
 {% include hero.html %}
 
 <section class="about">
+  <a href="#about"></a>
   <div class="container">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
       {{ site.event.about.description | markdownify }}
@@ -26,12 +27,26 @@ layout: default
       {% endfor %}
     </div>
   </div>
+  <div class="items row">
+    <a href="#leaders"></a>
+      {% for section in site.event.info.sections %}
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div class="item">
+            <img src="{{ section.image }}" />
+            <h1>{{ section.title }}</h1>
+            <p>{{ section.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
   <div class="pre-register">
     <button data-tf-popup="F8Tzb4XC" data-tf-size="70" data-tf-iframe-props="title=Pre-Registration for ROBOHacks 2022" data-tf-medium="snippet" style="all:unset;font-family:Montserrat,Arial,sans-serif;align-self: center;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#00509D;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:400;height:50px;width:250px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Register here.</button><script src="//embed.typeform.com/next/embed.js"></script>
   </div>
 </section>
 
-<section class="faq">
+<section class="faq">	
+  <a href="#faq"></a>
   <div class="container">
     <h1 class="text-center">FAQ</h1>
     <div class="row">

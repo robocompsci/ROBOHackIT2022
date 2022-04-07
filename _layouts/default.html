@@ -4,11 +4,14 @@
 
   <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
     {% include trust_badge.html %}
-    <nav class="footer">
-      <div class="container text-center">
-        <p>"Hello World"</p>
-        <h3>&copy; 2022 {{ site.event.name }}. With thanks to <a href="https://github.com/nlaz">Niko Lazaris</a>.</h3>
-      </div>
+    <nav class="navbar container">
+      <ul id="list-nav">
+        <li><a href="#">HOME</a></li>
+        <li><a id="about">ABOUT</a></li>
+        <li><a id="faq">FAQ</a></li>
+        <li><a id="leaders">OUR TEAM</a></li>
+        <li><a id="sponsors">SPONSORS</a></li>
+      </ul>
     </nav>
     {{ content }}
 
