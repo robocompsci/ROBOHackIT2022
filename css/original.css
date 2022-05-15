@@ -26,10 +26,6 @@ html {
 body {
   background-image: url(../images/background.svg);
   background-size: repeat;
-  width: 100%; 
-  height: 100%; 
-  margin: 0; 
-  padding: 0;
 }
 
 section {
@@ -163,9 +159,8 @@ section {
 
 .info {
   background-color: #fff;
-  margin-top: 15px;
   padding: 100px 0;
-  border-bottom: 10px solid #011028;
+  border-bottom: 50px solid #011028;
   position: relative;
 }
 
