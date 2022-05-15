@@ -87,24 +87,24 @@ event:
         description: >
           Practice design and development skills and learn from a slew of mentors.
 
-    robocs:
+    team:
     sections:
-      - image: "images/cowork.svg"
+      - image: "images/karsten.png"
         title: "Karsten Assoua"
         description: >
-          Come together in teams of up to 4 to spin up a solution in under 24 hours!
-      - image: "images/solowork.svg"
+          Co-Founder
+      - image: "images/ethan.png"
         title: "Ethan Coon"
         description: >
-          Develop or design innovative projects to advance educational technology!
-      - image: "images/proudcoder.svg"
+          Co-Founder
+      - image: "images/cherry.png"
         title: "Cherry Lin"
         description: >
-          Practice design and development skills and learn from a slew of mentors.
-      - image: "images/proudcoder.svg"
+          Operations Lead
+      - image: "images/bryan.png"
         title: "Bryan Tomer"
         description: >
-          Practice design and development skills and learn from a slew of mentors.
+          Outreach Lead
 
   # Frequently asked questions.
   faq:

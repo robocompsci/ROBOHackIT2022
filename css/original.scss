@@ -36,10 +36,12 @@ section {
 }
 
 .hero {
+    
   img {
     max-width: 400px;
   }
   .wrapper {
+    margin-top: 10vh;
     padding-top: 20vh;
     color: #fff;
     h1 {
@@ -126,6 +128,22 @@ section {
   padding: 100px 0;
   border-bottom: 50px solid #011028;
   position: relative;
+  #team {
+    background-image: url(../images/blobback.svg);
+    .item {
+        padding: 20px;
+        h1 {
+            font-family: "Montserrat";
+            font-size: 20px;
+            font-weight: 600;
+            margin: 20px 0;
+        }
+        p {
+            font-weight: 400px;
+            font-size: 15px;
+        }
+    }
+  }
   .item {
     padding: 20px;
     h1 {
@@ -144,6 +162,7 @@ section {
     }
   }
 }
+
 .preregister {
   margin-top: 30px;
 }

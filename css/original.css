@@ -39,6 +39,7 @@ section {
   max-width: 400px;
 }
 .hero .wrapper {
+  margin-top: 10vh;
   padding-top: 20vh;
   color: #fff;
 }
@@ -126,6 +127,22 @@ section {
   padding: 100px 0;
   border-bottom: 50px solid #011028;
   position: relative;
+}
+.info #team {
+  background-image: url(../images/blobback.svg);
+}
+.info #team .item {
+  padding: 20px;
+}
+.info #team .item h1 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.info #team .item p {
+  font-weight: 400px;
+  font-size: 15px;
 }
 .info .item {
   padding: 20px;
