@@ -121,7 +121,6 @@ section {
 
 .about {
   border-width: 15px 0;
-  padding: 130px 0;
   position: relative;
 }
 
@@ -145,12 +144,8 @@ section {
   text-transform: uppercase;
 }
 
-.about a {
+.about a, h3 {
   color: #fdc500;
-}
-
-.about h4 {
-  color: #fff;
 }
 
 /*
@@ -161,6 +156,7 @@ section {
   background-color: #fff;
   margin-top: 15px;
   padding: 100px 0;
+  border-bottom: 10px solid #011028;
   position: relative;
 }
 
@@ -177,6 +173,8 @@ section {
 
 .info .item img {
   max-width: 220px;
+  max-height: 140px;
+  margin-bottom: 25px;
 }
 
 .info .item p {

@@ -66,9 +66,43 @@ event:
       - image: "images/solowork.svg"
         title: "BUILD"
         description: >
-          Build innovative projects to support and advance educational technology!
+          Develop or design innovative projects to advance educational technology!
       - image: "images/proudcoder.svg"
         title: "LEARN"
+        description: >
+          Practice design and development skills and learn from a slew of mentors.
+
+  sponsors:
+    sections:
+      - image: "images/icondev.svg"
+        title: "Sponsor 1"
+        description: >
+          Come together in teams of up to 4 to spin up a programming solution in under 24 hours!
+      - image: "images/opensource.svg"
+        title: "Sponsor 2"
+        description: >
+          Develop or design innovative projects to advance educational technology!
+      - image: "images/remotemeeting.svg"
+        title: "Sponsor 3"
+        description: >
+          Practice design and development skills and learn from a slew of mentors.
+
+    robocs:
+    sections:
+      - image: "images/cowork.svg"
+        title: "Karsten Assoua"
+        description: >
+          Come together in teams of up to 4 to spin up a solution in under 24 hours!
+      - image: "images/solowork.svg"
+        title: "Ethan Coon"
+        description: >
+          Develop or design innovative projects to advance educational technology!
+      - image: "images/proudcoder.svg"
+        title: "Cherry Lin"
+        description: >
+          Practice design and development skills and learn from a slew of mentors.
+      - image: "images/proudcoder.svg"
+        title: "Bryan Tomer"
         description: >
           Practice design and development skills and learn from a slew of mentors.
 

@@ -5,15 +5,14 @@ layout: default
 {% include hero.html %}
 
 <section class="about">
-  <a href="#about"></a>
-  <div class="card mb-3">
+  <div class="card mb-3 margin: 70px 0;">
     <div class="row no-gutters">
       <div class="col-md-4">
-        <img src="images/freelancer.svg" class="card-img" alt="...">
+        <img src="images/programming.svg" class="card-img" alt="Programmer programming :D">
       </div>
-      <div class="col-md-8 col-xs-12 col-sm-10 col-sm-offset-1">
+      <div>
         <div class="card-body">
-          <h4 class="card-title">Innovation in EdTech</h4>
+          <h3 class="card-title font-weight: 600; color: #fdc500;">Innovation in EdTech</h3>
           <p class="card-text">{{ site.event.about.description | markdownify }}</p>
         </div>
       </div>
@@ -22,6 +21,7 @@ layout: default
 </section>
 
 <section class="info">
+  <a href="#info"></a>
   <div class="container">
     <div class="items row">
       {% for section in site.event.info.sections %}
@@ -37,7 +37,41 @@ layout: default
   </div>
 </section>
 
-<section class="faq">	
+<section class="sponsors">
+  <a href="#sponsors"></a>
+  <div class="container">
+    <div class="items row">
+      {% for section in site.event.info.sections %}
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div class="item">
+            <img src="{{ section.image }}" />
+            <h1>{{ section.title }}</h1>
+            <p>{{ section.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="robocs">
+  <a href="#robocs"></a>
+  <div class="container">
+    <div class="items row">
+      {% for section in site.event.info.sections %}
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div class="item">
+            <img src="{{ section.image }}" />
+            <h1>{{ section.title }}</h1>
+            <p>{{ section.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="faq" style="margin-top: 0px;">	
   <a href="#faq"></a>
   <div class="container">
     <h1 class="text-center">FAQ</h1>
