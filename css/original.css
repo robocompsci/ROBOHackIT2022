@@ -122,8 +122,18 @@ section {
 
 .about h1 {
   border-width: 15px 0;
+  margin-top: 10vh;
   padding: 130px 0;
   position: relative;
+  font-weight: 600;
+}
+
+.about h1 {
+  border-width: 15px 0;
+  margin-top: 10vh;
+  padding: 130px 0;
+  position: relative;
+  font-weight: 600;
 }
 
 .about p {
