@@ -144,8 +144,17 @@ section {
   text-transform: uppercase;
 }
 
-.about a, h3 {
+.about a {
   color: #fdc500;
+}
+
+.about h3 {
+  color: #fdc500;
+}
+
+.about img {
+  max-width: 30vh;
+  display: inline-block;
 }
 
 /*
@@ -173,8 +182,7 @@ section {
 
 .info .item img {
   max-width: 220px;
-  max-height: 140px;
-  display: inline-block;
+  max-height: 120px;
   margin-bottom: 25px;
 }
 
