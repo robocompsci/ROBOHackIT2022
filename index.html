@@ -4,14 +4,14 @@ layout: default
 
 {% include hero.html %}
 
-<section class="about">
+<section class="about" id="hackdesc">
   <div class="card mb-3" style="margin: 10vh 7vw;">
     <div class="row no-gutters">
       <div class="col-md-4" style="padding-left: 3vw;">
         <img src="images/programming.svg" class="card-img" style="max-width: 30vw; max-height: 30vh;" alt="Programmer programming :D">
       </div>
       <div>
-        <div class="card-body">
+        <div class="card-body" style="padding-right: 7vw;">
           <h3 class="card-title font-weight: 600; color: #fdc500;">Innovation in EdTech</h3>
           <p class="card-text">{{ site.event.about.description | markdownify }}</p>
         </div>
@@ -20,8 +20,7 @@ layout: default
   </div>
 </section>
 
-<section class="info">
-  <a href="#info"></a>
+<section class="info" id="acts">
   <div class="container">
     <div class="items row">
       {% for section in site.event.info.sections %}
@@ -37,8 +36,7 @@ layout: default
   </div>
 </section>
 
-<section class="info">
-  <a href="#sponsors"></a>
+<section class="info" id="sponsors">
   <div class="container">
     <div class="items row">
       {% for section in site.event.info.sections %}
@@ -54,8 +52,8 @@ layout: default
   </div>
 </section>
 
-<section class="info">
-  <a href="#robocs"></a>
+<section class="info" id="team">
+  <a href="#team"></a>
   <div class="container">
     <div class="items row">
       {% for section in site.event.info.sections %}
@@ -71,8 +69,7 @@ layout: default
   </div>
 </section>
 
-<section class="faq" style="margin-top: 0px;">	
-  <a href="#faq"></a>
+<section class="faq" id="faq" style="margin-top: 0px;">	
   <div class="container">
     <h1 class="text-center">FAQ</h1>
     <div class="row">

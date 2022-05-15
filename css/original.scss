@@ -1,30 +1,10 @@
-/*
-* RegistrationHacks Style File
-* http://bit.ly/1ywfhq7
-*/
-/* Open Sans Google Font */
+
 @import "https://fonts.googleapis.com/css?family=Open+Sans:600,700";
-/* Montserrat Google Font */
 @import "https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700";
-/*
- * Trust Badge
- */
-/* 
- * Hero Section
- */
-/* 
- * About Section
- */
-/*
- * Info Section
- */
-/*
- * FAQ Section
- */
-/* Navbar */
-/*
- * Footer Section
- */
+
+/* Variables */
+$primary-gold: #fdc500;
+
 * {
   font-family: "Montserrat";
   font-weight: 600;
@@ -74,7 +54,7 @@ section {
       margin-top: -15px;
       font-size: 28px;
       font-weight: 600;
-      color: #fdc500;
+      color: $primary-gold;
     }
     h3 {
       font-size: 20px;
@@ -114,13 +94,7 @@ section {
   position: relative;
   h1 {
     border-width: 15px 0;
-    margin-top: 10vh;
-    padding: 130px 0;
-    position: relative;
-    font-weight: 600;
-    border-width: 15px 0;
-    margin-top: 10vh;
-    padding: 130px 0;
+    color: $primary-gold;
     position: relative;
     font-weight: 600;
   }
