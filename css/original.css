@@ -2,13 +2,29 @@
 * RegistrationHacks Style File
 * http://bit.ly/1ywfhq7
 */
-
 /* Open Sans Google Font */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
-
+@import "https://fonts.googleapis.com/css?family=Open+Sans:600,700";
 /* Montserrat Google Font */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700);
-
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700";
+/*
+ * Trust Badge
+ */
+/* 
+ * Hero Section
+ */
+/* 
+ * About Section
+ */
+/*
+ * Info Section
+ */
+/*
+ * FAQ Section
+ */
+/* Navbar */
+/*
+ * Footer Section
+ */
 * {
   font-family: "Montserrat";
   font-weight: 600;
@@ -16,11 +32,11 @@
   padding: 0;
 }
 
-html { 
-  width: 100%; 
-  height: 100%; 
-  margin: 0; 
-  padding: 0; 
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -31,10 +47,6 @@ body {
 section {
   overflow-x: hidden;
 }
-
-/*
- * Trust Badge
- */
 
 #mlh-trust-badge {
   display: block;
@@ -47,19 +59,13 @@ section {
   z-index: 10000;
 }
 
-/* 
- * Hero Section
- */
-
 .hero img {
   max-width: 400px;
 }
-
 .hero .wrapper {
   padding-top: 20vh;
   color: #fff;
 }
-
 .hero .wrapper h1 {
   display: inline-block;
   font-size: 60px;
@@ -67,14 +73,12 @@ section {
   letter-spacing: -2px;
   padding: 10px 30px;
 }
-
 .hero .wrapper h2 {
   margin-top: -15px;
   font-size: 28px;
   font-weight: 600;
   color: #fdc500;
 }
-
 .hero .wrapper h3 {
   font-size: 20px;
   font-weight: 200;
@@ -82,11 +86,9 @@ section {
   max-width: 40%;
   margin: auto;
 }
-
 .hero .buttons {
   margin: 40px 0;
 }
-
 .hero .buttons a {
   border: 2px solid #fff;
   color: #fff;
@@ -99,27 +101,20 @@ section {
   text-transform: uppercase;
   transition: all 300ms ease;
 }
-
 .hero .buttons a:hover {
   z-index: 10;
   color: #fdc500;
   border: 2px solid #fdc500;
   transition: all 200ms ease-in;
 }
-
 .hero .buttons a:not(:last-child) {
   margin-right: 10px;
 }
-
-/* 
- * About Section
- */
 
 .about {
   border-width: 15px 0;
   position: relative;
 }
-
 .about h1 {
   border-width: 15px 0;
   margin-top: 10vh;
@@ -127,15 +122,9 @@ section {
   position: relative;
   font-weight: 600;
 }
-
-.about h1 {
-  border-width: 15px 0;
-  margin-top: 10vh;
-  padding: 130px 0;
-  position: relative;
-  font-weight: 600;
+.about h2 {
+  color: #fff;
 }
-
 .about p {
   text-align: left;
   color: #fff;
@@ -144,28 +133,18 @@ section {
   line-height: 1.6em;
   letter-spacing: -0.3px;
 }
-
 .about p span {
   font-weight: 700;
   text-transform: uppercase;
 }
-
+.about h3,
 .about a {
   color: #fdc500;
 }
-
-.about h3 {
-  color: #fdc500;
-}
-
 .about img {
   max-width: 30vh;
   display: inline-block;
 }
-
-/*
- * Info Section
- */
 
 .info {
   background-color: #fff;
@@ -173,24 +152,20 @@ section {
   border-bottom: 50px solid #011028;
   position: relative;
 }
-
 .info .item {
   padding: 20px;
 }
-
 .info .item h1 {
   font-family: "Montserrat";
   font-size: 45px;
   font-weight: 700;
   margin: 20px 0;
 }
-
 .info .item img {
   max-width: 220px;
   max-height: 120px;
   margin-bottom: 25px;
 }
-
 .info .item p {
   font-size: 20px;
 }
@@ -198,9 +173,6 @@ section {
 .preregister {
   margin-top: 30px;
 }
-/*
- * FAQ Section
- */
 
 .faq {
   background-color: #00296b;
@@ -208,38 +180,32 @@ section {
   padding: 100px 0;
   position: relative;
 }
-
 .faq h1 {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 100px;
   margin: 30px 0;
 }
-
 .faq .question h2 {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 24px;
 }
-
 .faq .question p {
   color: #fff;
   font-size: 18px;
   line-height: 1.5em;
   margin-bottom: 20px;
 }
-
 .faq .question a {
   color: #fdc500;
 }
-
 .faq img {
   margin-bottom: -2px;
   margin-top: 40px;
   width: 300px;
 }
 
-/* Navbar */
 .navbar {
   background-color: #012053;
   color: #fff;
@@ -251,24 +217,18 @@ section {
   font-size: 20px;
 }
 
-/*
- * Footer Section
- */
-
 .footer {
   background-color: #012053;
   color: #fff;
   padding-top: 5px;
   padding-bottom: 3px;
 }
-
 .footer img {
   margin: 15px 0px;
   max-width: 40%;
   max-height: 10vh;
   display: inline-block;
 }
-
 .footer h3 {
   font-family: "Montserrat";
   font-size: 16px;
@@ -277,7 +237,6 @@ section {
   margin: 0 15px;
   display: inline-block;
 }
-
 .footer h3 a {
   color: #fff;
 }
@@ -286,20 +245,19 @@ section {
   .hero .buttons {
     margin: 10px 0px;
   }
-
   .hero .buttons a {
     border-width: 8px;
     display: block;
     font-size: 20px;
     margin: 5px;
   }
-
   .hero img {
     width: 250px;
   }
-
   .hero hr {
     border-top-width: 8px;
     top: -8px;
   }
 }
+
+/*# sourceMappingURL=original.css.map */
