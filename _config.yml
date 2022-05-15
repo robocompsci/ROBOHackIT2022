@@ -54,21 +54,21 @@ event:
     description: >
       ROBOHackIT is a 24 hour online hackathon hosted by James W. Robinson Secondary School in Fairfax, Virginia.
       Strap in for an exciting event with guest speakers, workshops, minigames, and prizes! 
-      GOAL: Design or code innovative tech solution for learners all around the world.
+      GOAL: Design or code innovative tech solutions for learners all around the world.
 
   # Info Sections
   info:
     sections:
-      - image: "images/image1.png"
-        title: "COLLABORATE."
+      - image: "images/cowork.svg"
+        title: "TEAM UP"
         description: >
           Come together in teams of up to 4 to spin up a programming solution in under 24 hours!
-      - image: "images/image2.png"
-        title: "CREATE."
+      - image: "images/solowork.svg"
+        title: "BUILD"
         description: >
           Build innovative projects to support and advance educational technology!
-      - image: "images/image3.png"
-        title: "DEVELOP."
+      - image: "images/proudcoder.svg"
+        title: "LEARN"
         description: >
           Practice design and development skills and learn from a slew of mentors.
 

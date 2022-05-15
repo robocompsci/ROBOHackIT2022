@@ -149,6 +149,10 @@ section {
   color: #fdc500;
 }
 
+.about h4 {
+  color: #fff;
+}
+
 /*
  * Info Section
  */
@@ -189,7 +193,6 @@ section {
 .faq {
   background-color: #00296b;
   color: #fff;
-  margin-top: 15px;
   padding: 100px 0;
   position: relative;
 }
