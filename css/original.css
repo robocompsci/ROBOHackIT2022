@@ -141,6 +141,7 @@ section {
   border: solid 3px white;
   border-radius: 45px;
   padding: 20px;
+  margin-bottom: 30px;
 }
 #speakers .item h3,
 #speakers .item p {

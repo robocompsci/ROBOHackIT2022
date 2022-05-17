@@ -5,14 +5,14 @@ layout: default
 {% include hero.html %}
 
 <section class="about" id="hackdesc">
-  <div class="card mb-3" style="margin: 10vh 7vw;">
-    <div class="row no-gutters">
-      <div class="col-md-4" style="padding-left: 3vw;">
-        <img src="images/programming.svg" class="card-img" style="max-width: 30vw; max-height: 30vh;" alt="Programmer programming :D">
+  <div class="container" style="margin: 10vh 7vw;">
+    <div class="items row">
+      <div class="col-md-6 hidden-xs" style="padding-left: 3vw;">
+        <img src="images/programming.svg" class="card-img" style="margin: 5vh 0; max-height: 35vh;" alt="Programmer programming :D">
       </div>
       <div>
-        <div class="card-body" style="padding-right: 7vw;">
-          <h3 class="card-title font-weight: 600; color: #fdc500;">Innovation in EdTech</h3>
+        <div class="col-md-6">
+          <h3 class="card-title" style="font-weight: 600; color: #fdc500;">Innovation in EdTech</h3>
           <p class="card-text">{{ site.event.about.description | markdownify }}</p>
         </div>
       </div>
@@ -87,9 +87,9 @@ layout: default
 
 <section class="info" id="team">
   <h1 class="text-center">OUR TEAM</h1>
-    <div class="items row" style="margin: 0 8vw;">
+    <div class="items row" style="margin: 0 9vw;">
       {% for section in site.event.team.sections %}
-        <div class="col-xs-12 col-sm-3 text-center">
+        <div class="col-xs-12 col-sm-4 col-md-3 text-center">
           <div class="item">
             <img src="{{ section.image }}" />
             <h1>{{ section.title }}</h1>
