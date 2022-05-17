@@ -244,9 +244,8 @@ section {
 }
 
 .navbar {
-  background-color: #012053;
   color: #fff;
-  min-height: 12vh;
+  min-height: 10vh;
 }
 
 .nav li {
