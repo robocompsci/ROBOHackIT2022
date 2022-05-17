@@ -4,6 +4,7 @@
 /* Variables */
 $enable-negative-margins: true;
 $primary-gold: #fdc500;
+$black-blue: #011028;
 
 * {
   font-family: "Montserrat";
@@ -37,7 +38,7 @@ section {
 }
 
 .hero {
-    
+  margin-bottom: 210px;
   img {
     max-width: 400px;
   }
@@ -131,6 +132,14 @@ section {
 
 #speakers {
   background-image: url(../images/polyback.svg);
+  .item {
+    h1 {
+      color: $primary-gold;
+    }
+    h3, p {
+      color: #fff;
+    }
+  }
 }
 
 .info {
@@ -142,9 +151,10 @@ section {
       font-family: "Montserrat";
       font-weight: 700;
       font-size: 60px;
-      margin: 15px 0;
+      color: #fff;
+      margin: 30px 0;
   }
-  &#team, &#judges {
+  &#team {
     .item {
       min-width: fit-content;
       h1 {
@@ -164,6 +174,28 @@ section {
       img {
           max-width: 12vw;
       }
+    }
+  }
+  &#judges {
+    .item {
+      min-width: fit-content;
+      h1 {
+          font-family: "Montserrat";
+          font-size: 25px;
+          font-weight: 600;
+          margin: 20px 0;
+          color: $black-blue;
+          white-space: nowrap;
+      }
+      p {
+          font-weight: 500;
+          font-size: 20px;
+          color: $black-blue;
+          white-space: nowrap;
+      }
+      // img {
+      //     max-width: 12vw;
+      // }
     }
   }
   .item {
@@ -224,9 +256,17 @@ section {
 .navbar {
   background-color: #012053;
   color: #fff;
-  min-height: 10vh;
+  min-height: 12vh;
+  img {
+    margin: 20px 25px 10px;
+  }
 }
 .nav {
+  position: fixed; 
+  z-index: 1000; 
+  width: 100%; 
+  background-color: #00509D; 
+  height: 13vh;
   li {
     color: #fff;
     font-size: 20px;

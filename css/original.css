@@ -35,6 +35,9 @@ section {
   z-index: 10000;
 }
 
+.hero {
+  margin-bottom: 210px;
+}
 .hero img {
   max-width: 400px;
 }
@@ -129,6 +132,12 @@ section {
 #speakers {
   background-image: url(../images/polyback.svg);
 }
+#speakers .item h1 {
+  color: #fdc500;
+}
+#speakers .item h3, #speakers .item p {
+  color: #fff;
+}
 
 .info {
   background-color: #fff;
@@ -140,12 +149,13 @@ section {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 60px;
-  margin: 15px 0;
+  color: #fff;
+  margin: 30px 0;
 }
-.info#team .item, .info#judges .item {
+.info#team .item {
   min-width: fit-content;
 }
-.info#team .item h1, .info#judges .item h1 {
+.info#team .item h1 {
   font-family: "Montserrat";
   font-size: 25px;
   font-weight: 600;
@@ -153,14 +163,31 @@ section {
   color: #fdc500;
   white-space: nowrap;
 }
-.info#team .item p, .info#judges .item p {
+.info#team .item p {
   font-weight: 500;
   font-size: 20px;
   color: #fff;
   white-space: nowrap;
 }
-.info#team .item img, .info#judges .item img {
+.info#team .item img {
   max-width: 12vw;
+}
+.info#judges .item {
+  min-width: fit-content;
+}
+.info#judges .item h1 {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0;
+  color: #011028;
+  white-space: nowrap;
+}
+.info#judges .item p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #011028;
+  white-space: nowrap;
 }
 .info .item {
   padding: 20px;
@@ -219,9 +246,19 @@ section {
 .navbar {
   background-color: #012053;
   color: #fff;
-  min-height: 10vh;
+  min-height: 12vh;
+}
+.navbar img {
+  margin: 20px 25px 10px;
 }
 
+.nav {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: #00509D;
+  height: 13vh;
+}
 .nav li {
   color: #fff;
   font-size: 20px;
