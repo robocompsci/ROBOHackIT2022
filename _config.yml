@@ -89,17 +89,17 @@ event:
 
   speakers:
     sections:
-      - image: "images/icondev.svg"
+      - image: "images/robohackitcircle.svg"
         title: "Coming soon!"
         subtitle: "Mentor @ ROBOHackIT 2022"
         description: >
           This could be you! ROBOHackIT needs passionate, creative mentors and speakers to encourage and inspire hackers to innovate!
-      - image: "images/opensource.svg"
+      - image: "images/robohackitcircle.svg"
         title: "Speaker 2"
         subtitle: "Speaker @ ROBOHackIT 2022"
         description: >
           If you're interested in being a part of ROBOHackIT 2022, contact us now to get started!
-      - image: "images/remotemeeting.svg"
+      - image: "images/robohackitcircle.svg"
         title: "Sponsor 3"
         subtitle: "Mentor @ ROBOHackIT 2022"
         description: >

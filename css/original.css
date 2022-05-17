@@ -122,6 +122,14 @@ section {
   display: inline-block;
 }
 
+#team {
+  background-image: url(../images/blobback.svg);
+}
+
+#speakers {
+  background-image: url(../images/polyback.svg);
+}
+
 .info {
   background-color: #fff;
   padding: 100px 0;
@@ -134,13 +142,10 @@ section {
   font-size: 60px;
   margin: 15px 0;
 }
-.info#team {
-  background-image: url(../images/blobback.svg);
-}
-.info#team #judges .item {
+.info#team .item, .info#judges .item {
   min-width: fit-content;
 }
-.info#team #judges .item h1 {
+.info#team .item h1, .info#judges .item h1 {
   font-family: "Montserrat";
   font-size: 25px;
   font-weight: 600;
@@ -148,13 +153,13 @@ section {
   color: #fdc500;
   white-space: nowrap;
 }
-.info#team #judges .item p {
+.info#team .item p, .info#judges .item p {
   font-weight: 500;
   font-size: 20px;
   color: #fff;
   white-space: nowrap;
 }
-.info#team #judges .item img {
+.info#team .item img, .info#judges .item img {
   max-width: 12vw;
 }
 .info .item {
