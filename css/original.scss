@@ -154,6 +154,11 @@ section {
       color: #fff;
       margin: 30px 0;
   }
+  &#acts {
+    h1 {
+      color: $black-blue;
+    }
+  }
   &#team {
     .item {
       min-width: fit-content;
