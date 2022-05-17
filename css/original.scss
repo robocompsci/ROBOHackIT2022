@@ -131,19 +131,30 @@ section {
   position: relative;
   &#team {
     background-image: url(../images/blobback.svg);
+    h1 {
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 60px;
+      margin: 15px 0;
+    }
     .item {
-        padding: 20px;
+        min-width: fit-content;
         h1 {
             font-family: "Montserrat";
-            font-size: 30px;
+            font-size: 25px;
             font-weight: 600;
             margin: 20px 0;
             color: #fdc500;
+            white-space: nowrap;
         }
         p {
             font-weight: 500;
             font-size: 20px;
             color: #fff;
+            white-space: nowrap;
+        }
+        img {
+            max-width: 12vw;
         }
     }
   }

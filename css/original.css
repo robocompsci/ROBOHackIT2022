@@ -131,20 +131,31 @@ section {
 .info#team {
   background-image: url(../images/blobback.svg);
 }
+.info#team h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 60px;
+  margin: 15px 0;
+}
 .info#team .item {
-  padding: 20px;
+  min-width: fit-content;
 }
 .info#team .item h1 {
   font-family: "Montserrat";
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   margin: 20px 0;
   color: #fdc500;
+  white-space: nowrap;
 }
 .info#team .item p {
   font-weight: 500;
   font-size: 20px;
   color: #fff;
+  white-space: nowrap;
+}
+.info#team .item img {
+  max-width: 12vw;
 }
 .info .item {
   padding: 20px;
