@@ -54,9 +54,9 @@ layout: default
 
 <section class="info" id="speakers">
   <h1 class="text-center">KEYNOTE SPEAKERS</h1>
-    <div class="items row">
+    <div class="items row" style="margin: 5vw;">
       {% for section in site.event.speakers.sections %}
-        <div class="col-xs-12 text-center">
+        <div class="col-xs-12 col-sm-6 text-center">
           <div class="item">
             <img src="{{ section.image }}" />
             <h1>{{ section.title }}</h1>
@@ -71,10 +71,10 @@ layout: default
 
 <section class="info" id="judges">
   <h1 class="text-center">JUDGES</h1>
-    <div class="items row">
+    <div class="items row" style="margin: 0 10vh;">
       {% for section in site.event.judges.sections %}
-        <div class="col-xs-12text-center">
-          <div class="item">
+        <div class="col-xs-12 text-center">
+          <div class="item text-center">
             <img src="{{ section.image }}" />
             <h1>{{ section.title }}</h1>
             <p>{{ section.description }}</p>

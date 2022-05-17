@@ -133,13 +133,19 @@ section {
 }
 
 #speakers {
-  background-color: #0858c3;
-}
-#speakers h1 {
   color: #fdc500;
+  background-color: #163397;
 }
-#speakers .item h3, #speakers .item p {
+#speakers .item {
+  background-color: #012053;
+  border: solid 3px white;
+  border-radius: 45px;
+  padding: 20px;
+}
+#speakers .item h3,
+#speakers .item p {
   color: #fff;
+  font-size: 18px;
 }
 
 .info {
@@ -175,7 +181,10 @@ section {
   max-width: 12vw;
 }
 .info#judges .item {
-  min-width: fit-content;
+  background-color: #012053;
+  border-radius: 45px;
+  padding: 40px;
+  color: #fff;
 }
 .info#judges .item h1 {
   font-family: "Montserrat";
@@ -189,7 +198,6 @@ section {
   font-weight: 500;
   font-size: 20px;
   color: #011028;
-  white-space: nowrap;
 }
 .info .item {
   padding: 20px;

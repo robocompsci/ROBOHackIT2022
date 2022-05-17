@@ -5,7 +5,7 @@
 $enable-negative-margins: true;
 $primary-gold: #fdc500;
 $black-blue: #011028;
-$bright-blue: #0858c3;
+$bright-blue: #163397;
 
 * {
   font-family: "Montserrat";
@@ -135,13 +135,17 @@ section {
 }
 
 #speakers {
-  h1 {
-    color: $primary-gold;
-  }
+  color: $primary-gold;
   background-color: $bright-blue;
   .item {
-    h3, p {
+    background-color: #012053; 
+    border: solid 3px white;
+    border-radius: 45px;
+    padding: 20px;
+    h3,
+    p {
       color: #fff;
+      font-size: 18px;
     }
   }
 }
@@ -152,49 +156,51 @@ section {
   border-bottom: 50px solid #011028;
   position: relative;
   h1 {
-      font-family: "Montserrat";
-      font-weight: 700;
-      font-size: 60px;
-      margin: 0 0 5vh;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0 0 5vh;
   }
   &#team {
     .item {
       min-width: fit-content;
       h1 {
-          font-family: "Montserrat";
-          font-size: 25px;
-          font-weight: 600;
-          margin: 20px 0;
-          color: #fdc500;
-          white-space: nowrap;
+        font-family: "Montserrat";
+        font-size: 25px;
+        font-weight: 600;
+        margin: 20px 0;
+        color: #fdc500;
+        white-space: nowrap;
       }
       p {
-          font-weight: 500;
-          font-size: 20px;
-          color: #fff;
-          white-space: nowrap;
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+        white-space: nowrap;
       }
       img {
-          max-width: 12vw;
+        max-width: 12vw;
       }
     }
   }
   &#judges {
     .item {
-      min-width: fit-content;
+    background-color: #012053; 
+    border-radius: 45px;
+    padding: 40px;
+    color: #fff;
       h1 {
-          font-family: "Montserrat";
-          font-size: 25px;
-          font-weight: 600;
-          margin: 20px 0;
-          color: $black-blue;
-          white-space: nowrap;
+        font-family: "Montserrat";
+        font-size: 25px;
+        font-weight: 600;
+        margin: 20px 0;
+        color: $black-blue;
+        white-space: nowrap;
       }
       p {
-          font-weight: 500;
-          font-size: 20px;
-          color: $black-blue;
-          white-space: nowrap;
+        font-weight: 500;
+        font-size: 20px;
+        color: $black-blue;
       }
       // img {
       //     max-width: 12vw;
