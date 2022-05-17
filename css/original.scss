@@ -5,7 +5,8 @@
 $enable-negative-margins: true;
 $primary-gold: #fdc500;
 $black-blue: #011028;
-$bright-blue: #163397;
+$dark-blue: #012053;
+$bright-blue: #004AAD;
 
 * {
   font-family: "Montserrat";
@@ -83,8 +84,8 @@ section {
       transition: all 300ms ease;
       &:hover {
         z-index: 10;
-        color: #fdc500;
-        border: 2px solid #fdc500;
+        color: $primary-gold;
+        border: 2px solid $primary-gold;
         transition: all 200ms ease-in;
       }
       &:not(:last-child) {
@@ -119,7 +120,7 @@ section {
   }
   h3,
   a {
-    color: #fdc500;
+    color: $primary-gold;
   }
   img {
     max-width: 30vh;
@@ -136,7 +137,7 @@ section {
 
 #speakers {
   color: $primary-gold;
-  background-color: $bright-blue;
+  background-image: url(../images/circleback.svg);
   .item {
     background-color: #012053; 
     border: solid 3px white;
@@ -194,13 +195,10 @@ section {
         font-size: 25px;
         font-weight: 600;
         margin: 20px 0;
-        color: $black-blue;
-        white-space: nowrap;
       }
       p {
         font-weight: 500;
         font-size: 20px;
-        color: $black-blue;
       }
       // img {
       //     max-width: 12vw;

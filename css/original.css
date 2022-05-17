@@ -134,7 +134,7 @@ section {
 
 #speakers {
   color: #fdc500;
-  background-color: #163397;
+  background-image: url(../images/circleback.svg);
 }
 #speakers .item {
   background-color: #012053;
@@ -191,13 +191,10 @@ section {
   font-size: 25px;
   font-weight: 600;
   margin: 20px 0;
-  color: #011028;
-  white-space: nowrap;
 }
 .info#judges .item p {
   font-weight: 500;
   font-size: 20px;
-  color: #011028;
 }
 .info .item {
   padding: 20px;
