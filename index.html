@@ -56,7 +56,7 @@ layout: default
   <h1 class="text-center">KEYNOTE SPEAKERS</h1>
     <div class="items row">
       {% for section in site.event.speakers.sections %}
-        <div class="col-xs-12 col-sm-4 text-center">
+        <div class="col-xs-12 text-center">
           <div class="item">
             <img src="{{ section.image }}" />
             <h1>{{ section.title }}</h1>
@@ -73,7 +73,7 @@ layout: default
   <h1 class="text-center">JUDGES</h1>
     <div class="items row">
       {% for section in site.event.judges.sections %}
-        <div class="col-xs-12text-center">
+        <div class="col-xs-12 text-center">
           <div class="item">
             <img src="{{ section.image }}" />
             <h1>{{ section.title }}</h1>
