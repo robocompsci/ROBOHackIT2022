@@ -17,13 +17,13 @@ layout: default
         </div>
       </div>
     </div>
-  </div>
+  </div> 
 </section>
 
 <section class="info" id="acts">
   <div class="container">
     <div class="items row">
-      {% for section in site.event.info.sections %}
+      {% for section in site.event.acts.sections %}
         <div class="col-xs-12 col-sm-4 text-center">
           <div class="item">
             <img src="{{ section.image }}" />
@@ -39,7 +39,7 @@ layout: default
 <section class="info" id="sponsors">
   <div class="container">
     <div class="items row">
-      {% for section in site.event.info.sections %}
+      {% for section in site.event.sponsors.sections %}
         <div class="col-xs-12 col-sm-4 text-center">
           <div class="item">
             <img src="{{ section.image }}" />
