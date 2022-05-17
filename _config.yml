@@ -60,7 +60,7 @@ event:
   acts:
     sections:
       - image: "images/cowork.svg"
-        title: "TEAM UP"
+        title: "TEAM UP!"
         description: >
           Come together in teams of up to 4 to spin up a programming solution in under 24 hours!
       - image: "images/solowork.svg"
@@ -86,6 +86,31 @@ event:
         title: "Sponsor 3"
         description: >
           Practice design and development skills and learn from a slew of mentors.
+
+  speakers:
+    sections:
+      - image: "images/icondev.svg"
+        title: "Coming soon!"
+        subtitle: "Mentor @ ROBOHackIT 2022"
+        description: >
+          This could be you! ROBOHackIT needs passionate, creative mentors and speakers to encourage and inspire hackers to innovate!
+      - image: "images/opensource.svg"
+        title: "Speaker 2"
+        subtitle: "Speaker @ ROBOHackIT 2022"
+        description: >
+          If you're interested in being a part of ROBOHackIT 2022, contact us now to get started!
+      - image: "images/remotemeeting.svg"
+        title: "Sponsor 3"
+        subtitle: "Mentor @ ROBOHackIT 2022"
+        description: >
+          This could be you! ROBOHackIT needs passionate, creative mentors and speakers to encourage and inspire hackers to innovate!
+
+  judges:
+    sections:
+      - image: "images/robohackitcircle.svg"
+        title: "This could be you!"
+        description: >
+          If you're interested in judging projects for ROBOHackIT, contact us to get started!
 
   team:
     sections:

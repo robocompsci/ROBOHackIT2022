@@ -128,19 +128,19 @@ section {
   border-bottom: 50px solid #011028;
   position: relative;
 }
-.info#team {
-  background-image: url(../images/blobback.svg);
-}
-.info#team h1 {
+.info h1 {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 60px;
   margin: 15px 0;
 }
-.info#team .item {
+.info#team {
+  background-image: url(../images/blobback.svg);
+}
+.info#team #judges .item {
   min-width: fit-content;
 }
-.info#team .item h1 {
+.info#team #judges .item h1 {
   font-family: "Montserrat";
   font-size: 25px;
   font-weight: 600;
@@ -148,13 +148,13 @@ section {
   color: #fdc500;
   white-space: nowrap;
 }
-.info#team .item p {
+.info#team #judges .item p {
   font-weight: 500;
   font-size: 20px;
   color: #fff;
   white-space: nowrap;
 }
-.info#team .item img {
+.info#team #judges .item img {
   max-width: 12vw;
 }
 .info .item {

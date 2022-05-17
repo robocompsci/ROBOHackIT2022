@@ -129,15 +129,16 @@ section {
   padding: 100px 0;
   border-bottom: 50px solid #011028;
   position: relative;
-  &#team {
-    background-image: url(../images/blobback.svg);
-    h1 {
+  h1 {
       font-family: "Montserrat";
       font-weight: 700;
       font-size: 60px;
       margin: 15px 0;
-    }
-    .item {
+  }
+  &#team {
+    background-image: url(../images/blobback.svg);
+    #judges {
+      .item {
         min-width: fit-content;
         h1 {
             font-family: "Montserrat";
@@ -156,6 +157,7 @@ section {
         img {
             max-width: 12vw;
         }
+      }
     }
   }
   .item {
