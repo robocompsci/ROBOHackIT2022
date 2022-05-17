@@ -87,24 +87,24 @@ event:
         description: >
           Practice design and development skills and learn from a slew of mentors.
 
-    team:
-    sections:
-      - image: "images/karsten.png"
-        title: "Karsten Assoua"
-        description: >
-          Co-Founder
-      - image: "images/ethan.png"
-        title: "Ethan Coon"
-        description: >
-          Co-Founder
-      - image: "images/cherry.png"
-        title: "Cherry Lin"
-        description: >
-          Operations Lead
-      - image: "images/bryan.png"
-        title: "Bryan Tomer"
-        description: >
-          Outreach Lead
+  team:
+  sections:
+    - image: "images/karsten.png"
+      title: "Karsten Assoua"
+      description: >
+        Co-Founder
+    - image: "images/ethan.png"
+      title: "Ethan Coon"
+      description: >
+        Co-Founder
+    - image: "images/cherry.png"
+      title: "Cherry Lin"
+      description: >
+        Operations Lead
+    - image: "images/bryan.png"
+      title: "Bryan Tomer"
+      description: >
+        Outreach Lead
 
   # Frequently asked questions.
   faq:
