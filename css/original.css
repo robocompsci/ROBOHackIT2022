@@ -149,11 +149,7 @@ section {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 60px;
-  color: #fff;
   margin: 30px 0;
-}
-.info#acts h1 {
-  color: #011028;
 }
 .info#team .item {
   min-width: fit-content;
