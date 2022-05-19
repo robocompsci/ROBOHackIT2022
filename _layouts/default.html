@@ -4,17 +4,20 @@
 
   <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
     {% include trust_badge.html %}
-    <nav class="navbar navbar-collapse" style="position: fixed; z-index: 1000; width: 100%; background-color: #00509D; height: 10vh;" ">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-md sticky-top" style="position: fixed; z-index: 1000; width: 100%; background-color: #00509D; height: 10vh;" ">
+      <button class="navbar-toggler" data-toggle="collapse" data-target="collapse_target">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container-fluid collapse navbar-collapse" id="collapse_target">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
             <img src="../mlh-hackathon-boilerplate/images/robohackitlogotrans.svg" style="max-height: 7vh;" alt="ROBOHackIT 2022"></a>
         </div>
         <ul class="nav navbar-nav">
-          <li><a href="#acts">About</a></li>
-          <li><a href="#sponsors">Sponsors</a></li>
-          <li><a href="#team">Robinson CS Club</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li class="nav-item"><a href="#acts" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#sponsors" class="nav-link">Sponsors</a></li>
+          <li class="nav-item"><a href="#team" class="nav-link">Robinson CS Club</a></li>
+          <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
         </ul>
       </div>
     </nav>
