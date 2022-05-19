@@ -4,15 +4,18 @@
 
   <body{% if page.custom_class %} class="{{ page.custom_class }}"{% endif %}>
     {% include trust_badge.html %}
-    <nav class="navbar navbar-expand-md sticky-top" style="position: fixed; z-index: 1000; width: 100%; background-color: #00509D; height: 10vh;" ">
-      <button class="navbar-toggler" data-toggle="collapse" data-target="collapse_target">
+    <nav class="navbar navbar-expand-md" style="position: fixed; z-index: 1000; width: 100%; background-color: #00509D; height: 10vh;" ">
+      <!--Navbar logo-->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img src="../mlh-hackathon-boilerplate/images/robohackitlogotrans.svg" style="max-height: 7vh;" alt="ROBOHackIT 2022"></a>
+      </div>
+      <!--Navbar toggler-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="container-fluid collapse navbar-collapse" id="collapse_target">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <img src="../mlh-hackathon-boilerplate/images/robohackitlogotrans.svg" style="max-height: 7vh;" alt="ROBOHackIT 2022"></a>
-        </div>
+
+      <div class="collapse navbar-collapse" id="collapse-target">
         <ul class="nav navbar-nav">
           <li class="nav-item"><a href="#acts" class="nav-link">About</a></li>
           <li class="nav-item"><a href="#sponsors" class="nav-link">Sponsors</a></li>
