@@ -166,6 +166,9 @@ section {
   &#team {
     .item {
       min-width: fit-content;
+      @media (min-width: 768px) {
+        padding: 0;
+      }
       h1 {
         font-family: "Montserrat";
         font-size: 25px;
@@ -182,6 +185,9 @@ section {
       }
       img {
         max-width: 12vw;
+        @media (min-width: 768px) {
+          display: none;
+        }
       }
     }
   }
@@ -196,6 +202,9 @@ section {
         font-size: 25px;
         font-weight: 600;
         margin: 20px 0;
+        @media (min-width: 768px) {
+          font-size: 19px;
+        }
       }
       p {
         font-weight: 500;
@@ -299,10 +308,10 @@ section {
     .buttons {
       margin: 10px 0px;
       a {
-        border-width: 8px;
+        border-width: 4px;
         display: block;
         font-size: 20px;
-        margin: 5px;
+        margin: 20px 60px;
       }
     }
     img {

@@ -121,10 +121,10 @@ event:
         title: "Cherry Lin"
         description: >
           Operations Lead
-      - image: "images/bryan.svg"
-        title: "Bryan Tomer"
-        description: >
-          Outreach Lead
+      # - image: "images/bryan.svg"
+      #   title: "Bryan Tomer"
+      #   description: >
+      #     Outreach Lead
 
   # Frequently asked questions.
   faq:
