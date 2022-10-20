@@ -41,7 +41,7 @@ event:
 
   hero:
     links:
-      - text: "Pre-Register"
+      - text: "Register"
         href: "https://forms.gle/LCPek6GaLpmaNiaT8"
       - text: "Apply w/ MyMLH"
         my_mlh:
@@ -52,9 +52,9 @@ event:
 
   about:
     description: >
-      ROBOHackIT is a 24 hour online hackathon hosted by James W. Robinson Secondary School in Fairfax, Virginia.
-      Strap in for an exciting event with guest speakers, workshops, minigames, and prizes! 
-      GOAL: Design or code innovative tech solutions for learners all around the world.
+      ROBOHackIT is a 24 hour online hackathon. Strap in for an exciting event with guest speakers,
+      workshops, minigames, and prizes! Our goal is to design or code innovative tech solutions 
+      for learners all around the world.
 
   # Info Sections
   acts:
@@ -134,14 +134,14 @@ event:
         software over 24-48 hours. It's [super beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
     - question: "How much does it cost?"
       answer: >
-        Nothing. ROBOHacks is free for everyone!
+        Nothing. ROBOHackIT is free for everyone!
     - question: "Do I need to be a student to attend?"
       answer: >
         Yes. Only students who are currently enrolled at a college/university or
         have graduated within the past 12 months are eligible to attend.
     - question: "Where is the hackathon?"
       answer: >
-        ROBOHacks will be entirely digital this year, facilitated by Discord and Devpost.
+        ROBOHackIT will be entirely digital this year, facilitated by Discord and Devpost.
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
