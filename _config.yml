@@ -24,16 +24,16 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "ROBOHackIT | October 8-9 2022"
+  title:       "ROBOHackIT | October 22-23 2022"
   description: "Building innovative solutions that will empower future students and bridge gaps in education."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
   name:        "ROBOHackIT"
-  description: "Robinson Secondary invites hackers to ROBOHackIT 2022! Let's build innovative solutions that will empower students and bridge gaps in education together."
-  date:        "October 8-9 2022"
-  location:    "Robinson CS Club's EdTech Hackathon"
+  description: "Hackers all around the world are invited to ROBOHackIT 2022! Let's build innovative solutions that will empower students and bridge gaps in education together."
+  date:        "October 22-23 2022"
+  location:    "ROBO/CS EdTech Hackathon"
 
   trust_badge:
     year:   "2022"  # season year
